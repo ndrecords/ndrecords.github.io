@@ -1,0 +1,12 @@
+/* Contenido de styles.css */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+header { background: #333; color: white; padding: 20px; text-align: center; }
+.content { padding: 20px; }
+img { width: 150px; height: 150px; border-radius: 75px; display: block; margin: 20px auto; }
+h2 { text-align: center; }
+.projects { margin-top: 20px; }
+.project-item { margin-bottom: 10px; }
+ul { list-style-type: none; padding: 0; }
+li { margin-bottom: 5px; }
+a { text-decoration: none; color: #333333; }
+a:hover { color: #333333; text-decoration: underline; }
