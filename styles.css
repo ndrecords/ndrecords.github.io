@@ -1,4 +1,4 @@
-/* Contenido de styles.css */
+/* Estilos generales */
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
 header { background: #333; color: white; padding: 20px; text-align: center; }
 .content { padding: 20px; }
@@ -8,5 +8,19 @@ h2 { text-align: center; }
 .project-item { margin-bottom: 10px; }
 ul { list-style-type: none; padding: 0; }
 li { margin-bottom: 5px; }
-a { text-decoration: none; color: #333333; }
-a:hover { color: #333333; text-decoration: underline; }
+
+/* Enlaces */
+a { 
+    text-decoration: none; 
+    color: #1a73e8; /* Cambié el color a un azul llamativo */
+    font-weight: bold; /* Hacer que el texto sea más llamativo */
+}
+
+a:hover { 
+    color: #0b5ed7; /* Cambié ligeramente el color cuando pasas el ratón por encima */
+    text-decoration: underline; /* Subraya el enlace cuando el ratón pasa por encima */
+}
+
+a:visited {
+    color: #5f6368; /* Cambia el color de los enlaces visitados */
+}
